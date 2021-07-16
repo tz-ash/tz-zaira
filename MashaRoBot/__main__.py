@@ -86,7 +86,7 @@ buttons = [
             text="𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="t.me/ZairaRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="𝙺𝙸𝙳 𝙷𝚄𝙱", callback_data="https://t.me/kidhub"),
+        InlineKeyboardButton(text="𝙺𝙸𝙳 𝙷𝚄𝙱", url="https://t.me/kidhub"),
         InlineKeyboardButton(
             text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
@@ -106,7 +106,7 @@ HELP_STRINGS = """
 Hello am [ZAIRA](https://telegra.ph/file/e83f3cd84f703864544f7.jpg) and here are my helpful commands let's go through this and if you have any doubts ask at my support group."""
 
 
-DONATE_STRING = """No need.. I'm rich"""
+DONATE_STRING = """[kid](https://t.me/kidhub)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -349,7 +349,7 @@ def help_button(update, context):
 @run_async
 def Masha_about_callback(update, context):
     query = update.callback_query
-    if query.data == "https://t.me/kidhub":
+    if query.data == "masha_":
         query.message.edit_text(
             text=""" ℹ️ I'm *Zaira*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
@@ -387,7 +387,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *Zaira* THIS BOT CURRENTLY A CLOSED SOURCE CONATCT DEV FOR REPO
-                 \nHere is the [DEV](https://t.me/psykd) .""",
+                 \nHere is the [DEV](https://t.me/kidhub) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
