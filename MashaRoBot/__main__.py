@@ -86,7 +86,7 @@ buttons = [
             text="𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="t.me/ZairaRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="𝙰𝙱𝙾𝚄𝚃", callback_data="Masha_"),
+        InlineKeyboardButton(text="𝙺𝙸𝙳 𝙷𝚄𝙱", callback_data="https://t.me/kidhub"),
         InlineKeyboardButton(
             text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
