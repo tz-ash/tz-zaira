@@ -76,8 +76,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏᴡ [👋](https://telegra.ph/file/0404e65609ac4042c4a85.jpg). I am *ZAIRA*
-`I'm here to help you to make your group managment task easier! TAP Commands Use buttons given below to know more about me..`
+HELLO [👋](https://telegra.ph/file/0404e65609ac4042c4a85.jpg). I AM *ZAIRA*
+`I'm here to help you to make your group managment task easier! TAP` *Commands* `Use buttons given below to know more about me.` 
+"""
 
 buttons = [
     [
@@ -103,6 +104,7 @@ buttons = [
 
 HELP_STRINGS = """
 Hello am [ZAIRA](https://telegra.ph/file/0404e65609ac4042c4a85.jpg) and here are my helpful commands let's go through this and if you have any doubts ask at my support group."""
+
 
 
 DONATE_STRING = """[kid](https://t.me/kidhub)"""
