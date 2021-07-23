@@ -76,34 +76,33 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-HELLOW [👋](https://telegra.ph/file/9d49379aac9ae5724e886.jpg). I AM *ZAIRA*
-`I'm here to help you to make your group managment task easier! TAP` *Commands* `Use buttons given below to know more about me.` 
-"""
+ʜᴇʟʟᴏᴡ [👋](https://telegra.ph/file/0404e65609ac4042c4a85.jpg). ɪ ᴀᴍ *ᴢᴀɪʀᴀ*
+`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀᴋᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴍᴇɴᴛ ᴛᴀꜱᴋ ᴇᴀꜱɪᴇʀ! ᴛᴀᴘ` *ᴄᴏᴍᴍᴀɴᴅꜱ* `ᴜꜱᴇ ʙᴜᴛᴛᴏɴꜱ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ.`
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="t.me/ZairaRobot?startgroup=true"),
+            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="t.me/ZairaRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="𝙺𝙸𝙳 𝙷𝚄𝙱", url="https://t.me/kidhub"),
+        InlineKeyboardButton(text="ᴋɪᴅ ʜᴜʙ", url="https://t.me/kidhub"),
         InlineKeyboardButton(
-            text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
-        InlineKeyboardButton(text="𝚄𝙿𝙳𝙰𝚃𝙴𝚂", url="https://t.me/kidbots"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/kidbots"),
         
-        InlineKeyboardButton(text="𝙶𝙱𝙰𝙽 𝙻𝙾𝙶𝚂", url="https://t.me/zairalogs"),
+        InlineKeyboardButton(text="ʙᴀɴ ʟᴏɢꜱ", url="https://t.me/zairalogs"),
     ], 
     [
-        InlineKeyboardButton(text="𝙷𝙴𝙻𝙿 & 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂", callback_data="help_back"),
+        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-Hello am [ZAIRA](https://telegra.ph/file/e83f3cd84f703864544f7.jpg) and here are my helpful commands let's go through this and if you have any doubts ask at my support group."""
+ʜᴇʟʟᴏ ᴀᴍ [ᴢᴀɪʀᴀ](https://telegra.ph/file/0404e65609ac4042c4a85.jpg) ᴀɴᴅ ʜᴇʀᴇ ᴀʀᴇ ᴍʏ ʜᴇʟᴘꜰᴜʟ ᴄᴏᴍᴍᴀɴᴅꜱ ʟᴇᴛ'ꜱ ɢᴏ ᴛʜʀᴏᴜɢʜ ᴛʜɪꜱ ᴀɴᴅ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛꜱ ᴀꜱᴋ ᴀᴛ ᴍʏ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ."""
 
 
 DONATE_STRING = """[kid](https://t.me/kidhub)"""
