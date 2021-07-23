@@ -102,7 +102,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-ʜᴇʟʟᴏ ᴀᴍ [ZAIRA](https://telegra.ph/file/0404e65609ac4042c4a85.jpg) ᴀɴᴅ ʜᴇʀᴇ ᴀʀᴇ ᴍʏ ʜᴇʟᴘꜰᴜʟ ᴄᴏᴍᴍᴀɴᴅꜱ ʟᴇᴛ'ꜱ ɢᴏ ᴛʜʀᴏᴜɢʜ ᴛʜɪꜱ ᴀɴᴅ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛꜱ ᴀꜱᴋ ᴀᴛ ᴍʏ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ."""
+Hello am [ZAIRA](https://telegra.ph/file/0404e65609ac4042c4a85.jpg) and here are my helpful commands let's go through this and if you have any doubts ask at my support group."""
 
 
 DONATE_STRING = """[kid](https://t.me/kidhub)"""
