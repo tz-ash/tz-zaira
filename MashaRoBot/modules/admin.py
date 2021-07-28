@@ -644,11 +644,18 @@ __help__ = """
  ❍ /purge <integer X>*:* deletes the replied message, and X messages following it if replied to a message.
 *Note:* Night Mode chats get Automatically closed at 12 am(IST)
 and Automatically openned at 6 am(IST) To Prevent Night Spams.
+
 *MUTING ONLY FOR ADMINS*
 *Admins only:*
  ❍ /mute <userhandle>*:* silences a user. Can also be used as a reply, muting the replied to user.
  ❍ /tmute <userhandle> x(m/h/d)*:* mutes a user for x time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
  ❍ /unmute <userhandle>*:* unmutes a user. Can also be used as a reply, muting the replied to user.
+
+*RULES MODULE TO SET ON GROUP*
+ ❍ /rules*:* get the rules for this chat.
+*Admins only:*
+ ❍ /setrules <your rules here>*:* set the rules for this chat.
+ ❍ /clearrules*:* clear the rules for this chat.
 """
 
 ADMINLIST_HANDLER = DisableAbleCommandHandler("admins", adminlist)
