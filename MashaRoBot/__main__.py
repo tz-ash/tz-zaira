@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow My name is` *ZAIRA*
+`Hellow My name is` [*ZAIRA*](https://telegra.ph/file/33AFC4921FFAE87BFC2A9.JPG). 
 `I'm here to help you manage your groups! Hit` *🦋Commands* `button below to find out more about how to use me to my full potential.` 
 """
 
@@ -101,7 +101,7 @@ HELP_STRINGS = """
 `ʜɪ.. ɪ'ᴍ` [ZAIRA](https://telegra.ph/file/33afc4921ffae87bfc2a9.jpg) 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-
+MASHA_IMG = "https://telegra.ph/file/33afc4921ffae87bfc2a9.jpg"
 
 DONATE_STRING = """[HEY GLAD TO THINK TO DONATE CONTACT ME AT TZKID](https://t.me/TZKID) """
 
