@@ -98,6 +98,13 @@ __help__ = """
  *Telegraph:*
  ❍ /tm :Get Telegraph Link Of Replied Media
  ❍ /txt :Get Telegraph Link of Replied Text
+*Currency converter:* 
+ ❍ /cash*:* currency converter
+Example:
+ `/cash 1 USD INR`  
+      _OR_
+ `/cash 1 usd inr`
+Output: `1.0 USD = 75.505 INR`
 
 """
 
