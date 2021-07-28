@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow My name is` *Masha*
-`I'm here to help you manage your groups! Hit` *📚Commands* `button below to find out more about how to use me to my full potential.` 
+`Hellow My name is` *ZAIRA*
+`I'm here to help you manage your groups! Hit` *🦋Commands* `button below to find out more about how to use me to my full potential.` 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ZAIRA TO GROUP ➕️", url="t.me/MashaRoBot?startgroup=true"),
+            text="➕️ ADD ZAIRA TO GROUP ➕️", url="t.me/ZairaRobot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ABOUT MEH", callback_data="masha_"),
@@ -355,7 +355,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Masha's licensed under the GNU General Public License v3.0_
                  Here is the [ZAIRA SUPPORT](https://t.me/tzkid).
-                 If you have any question about Masha, let us know at @tzkid.""",
+                 If you have any question about Zaira, let us know at @tzkid.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
