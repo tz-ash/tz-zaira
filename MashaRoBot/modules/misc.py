@@ -105,6 +105,10 @@ Example:
       _OR_
  `/cash 1 usd inr`
 Output: `1.0 USD = 75.505 INR`
+*NIGHTMODE*
+❍ /nightmode on/off
+**Note:** Night Mode chats get Automatically closed at 12pm(IST)
+and Automatically openned at 6am(IST) To Prevent Night Spams.
 
 
 """
