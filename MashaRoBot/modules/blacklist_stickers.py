@@ -515,9 +515,15 @@ Admin only:
  ❍ /addblacklist <triggers>*:* Add a trigger to the blacklist. Each line is considered one trigger, so using different lines will allow you to add multiple triggers.
  ❍ /unblacklist <triggers>*:* Remove triggers from the blacklist. Same newline logic applies here, so you can remove multiple triggers at once.
  ❍ /blacklistmode <off/del/warn/ban/kick/mute/tban/tmute>*:* Action to perform when someone sends blacklisted words.
+ 
+ *Blue text cleaner* removed any made up commands that people send in your chat.
+ ❍ /cleanblue <on/off/yes/no>*:* clean commands after sending
+ ❍ /ignoreblue <word>*:* prevent auto cleaning of the command
+ ❍ /unignoreblue <word>*:* remove prevent auto cleaning of the command
+ ❍ /listblue*:* list currently whitelisted commands
 """
 
-__mod_name__ = "B-LIST/STICK"
+__mod_name__ = "BTS"
 
 BLACKLIST_STICKER_HANDLER = DisableAbleCommandHandler(
     "blsticker", blackliststicker, admin_ok=True
