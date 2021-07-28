@@ -84,8 +84,8 @@ buttons = [
             text="➕️ ADD ZAIRA TO GROUP ➕️", url="t.me/ZairaRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ABOUT MEH", callback_data="masha_"),
-        InlineKeyboardButton(text="HELP&COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="ABOUT", callback_data="masha_"),
+        InlineKeyboardButton(text="COMMANDS", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
