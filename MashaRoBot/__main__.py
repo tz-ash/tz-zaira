@@ -98,7 +98,9 @@ buttons = [
 
 
 HELP_STRINGS = """
-*『HELP BUTTONS HERE』*"""
+`ʜɪ.. ɪ'ᴍ` [ZAIRA](https://telegra.ph/file/33afc4921ffae87bfc2a9.jpg) 
+`ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
+
 
 
 DONATE_STRING = """[HEY GLAD TO THINK TO DONATE CONTACT ME AT TZKID](https://t.me/TZKID) """
