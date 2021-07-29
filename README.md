@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/Qv9p77hBf48DutDzvr/giphy.gif">
+  <img src="CAACAgEAAxkDArMJzWD9T3hQB4YO5zFqR7QI2aICLCDQAAKLAQACXa_pR2Uj7JGh9xMSIAQ">
 </p>
 
 # ZairaRobot
