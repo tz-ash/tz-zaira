@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="CAACAgEAAxkDArMJzWD9T3hQB4YO5zFqR7QI2aICLCDQAAKLAQACXa_pR2Uj7JGh9xMSIAQ">
+  <img src="https://telegra.ph/file/0ae3653955706d959b8ff.jpg">
 </p>
 
 # ZairaRobot
